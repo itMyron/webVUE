@@ -1,0 +1,81 @@
+#addBankCardSectionForm {
+    height: 95%;
+    padding-top: 5%;
+    background: #F1F1F1;
+    font {
+        color: #FF5001;
+    }
+    .news1 {
+        .list {
+            padding: 10px;
+            padding-left: 150px;
+            span {
+                display: inline-block;
+                width: 100px;
+                margin-left: 10px;
+                font-size: 16px;
+            }
+            strong {
+                margin-left: 10px;
+                font-size: 16px;
+            }
+            input {
+                font-size: 16px;
+                padding-left: 5px;
+                width: 410px;
+                height: 32px;
+                line-height: 32px;
+                border: 1px solid #e9eff1;
+                border-radius: 5px;
+            }
+            select {
+                font-size: 16px;
+                width: 415px;
+                height: 32px;
+                line-height: 32px;
+                border: 1px solid #e9eff1;
+                border-radius: 5px;
+            }
+        }
+        .list6 {
+            input {
+                width: 200px;
+            }
+            #code {
+                margin-right: 10px;
+            }
+            #getCode {
+                cursor: pointer;
+            }
+            .changeCode {
+                color: #686d9b !important;
+                border-color: #b3b6cd !important;
+            }
+        }
+    }
+    .point {
+        text-align: center;
+        color: red;
+    }
+    .news2 {
+        padding: 40px 0 100px;
+        text-align: center;
+        a {
+            padding: 10px 120px;
+            border: 1px solid #FF5001;
+            color: #ff5001;
+            margin-right: 80px;
+        }
+        a:hover {
+            cursor: pointer;
+            color: red;
+        }
+        #submit {
+            background: linear-gradient(to left, #ff8f00, #ff5001);
+            color: #fff;
+        }
+        #submit:hover {
+            background: linear-gradient(to left, #ff6f00, #ff3001);
+        }
+    }
+}

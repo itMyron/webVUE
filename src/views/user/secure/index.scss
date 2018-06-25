@@ -1,0 +1,186 @@
+@mixin title {
+            height: 76px;
+            line-height: 76px;
+            background:#fff ;
+            padding: 0 20px;
+            font-size: 16px;
+           
+            span{
+                float: left;
+                display: block ;
+                width:100px ;
+                color: #ff5001;
+                padding-left: 70px;
+            }
+            strong{
+                padding-left: 150px;
+                font-size: 18px;
+            }
+            a{  
+                border: 1px solid #ff5001;
+                float: right;
+                font-size: 16px;
+                color: #FF5001;
+                height: 24px;
+                line-height: 24px;
+                padding:0 24px;
+                margin-top: 24px;
+                cursor: pointer;
+            }
+        }   
+#secureSection{
+    background: #F1F1F1;
+    .news1{
+        background: #fff;
+        margin-bottom: 10px;
+        .title{
+            @include title ;
+            span{
+                background: url(../../../assets/user/secure/mima.png) no-repeat left center;
+            }
+        } 
+        .box{
+            padding:30px 0;
+            margin: 10px 0;
+            background: #fcfcfc;
+            .list{
+                padding: 5px;
+                margin: 20px auto;
+                width: 300px;
+                background: #fff;
+                border: 1px solid #CCCCCC ;
+                i{
+                    padding: 10px;
+                    background: url(../../../assets/user/secure/oldmm.png) no-repeat center; 
+                    margin: 0 10px;       
+                }
+                input{
+                    border: none;
+                    font-size: 16px;
+                }
+            }
+            .list2{
+                i{
+                    background: url(../../../assets/user/secure/newmm.png) no-repeat center; 
+                }
+            }
+            .list3{
+                i{
+                    background: url(../../../assets/user/secure/suremm.png) no-repeat center; 
+                }
+            }
+            .list4{
+              
+                color: #fff;
+                text-align: center;
+                background: linear-gradient(to left, #ff8f00, #ff5001);                
+            }
+            .list4:hover{
+            background: linear-gradient(to left, #ff6f00, #ff3001);
+            cursor: pointer;  
+        }
+        }   
+    }
+    .news2{
+        .title{
+            @include title ;
+            span{
+                background: url(../../../assets/user/secure/gaoji.png) no-repeat left center;
+            }
+        }    
+    }
+    .news3{
+        background: #fff;
+        .title{
+            @include title ;
+            span{
+                background: url(../../../assets/user/secure/shouji.png) no-repeat left center;
+            }
+        }
+        .box{
+            padding: 30px 0;
+            margin: 10px 0;
+            background: #fcfcfc;
+            .list{
+                border: 1px solid #CCCCCC ;
+                padding: 5px;
+                margin: 20px auto;
+                width: 300px;
+                background: #fff;
+                i{
+                    padding: 10px;
+                    background: url(../../../assets/user/secure/mobile.png) no-repeat center; 
+                    margin: 0 10px;       
+                }
+                input{
+                    border: none;
+                     font-size: 16px;
+                }
+            }
+            .list2{
+                i{
+                    background: url(../../../assets/user/secure/newmm.png) no-repeat center; 
+                }
+            }
+            .list3{
+                i{
+                    background: url(../../../assets/user/secure/mobile.png) no-repeat center; 
+                }
+            }
+            .list4{
+                padding:1px 0 1px 10px;
+                height: 30px;
+                #code{
+                        width: 130px;
+                        padding-left: 15px;
+                        height: 29px;
+                        line-height: 29px;
+                    }
+                    #getCode{
+                       height: 30px;
+                       line-height: 30px;
+                       padding: 0px 20px;
+                       float: right;
+                       width:120px ;
+                       background: #fcfcfc;
+                       border: 1px solid #FF5001;
+                       color: #FF5001;
+                       cursor: pointer;
+                    }
+                    .changeCode {
+                        color: #686d9b !important;
+                        border-color: #b3b6cd !important;
+                    }
+                    i{
+                       display: block;
+                       float: right;
+                       margin: 0;
+                       padding:15px 5px;
+                       background: #fcfcfc;
+                       
+                    }
+            }
+            .list5{
+                color: #fff;
+                text-align: center;
+                background: linear-gradient(to left, #ff8f00, #ff5001);                
+            }
+            .list5:hover{
+                background: linear-gradient(to left, #ff6f00, #ff3001);
+                cursor: pointer;  
+            }
+        }     
+    }
+    .point{
+        border: none !important;
+        background: #fff;
+        height: 15px;
+        line-height: 15px;
+        text-align: center;
+        font-size: 14px;
+        color: red;
+        background: #fcfcfc !important;
+    }
+    
+}
+

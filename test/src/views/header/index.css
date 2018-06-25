@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.header{
+  height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: pink;
+}
+.nav{
+  overflow: hidden;
+  list-style: none;
+  padding: 0 40px;
+}
+.nav li{
+  float: right;
+  margin-right: 30px;
+  font-size: 28px;
+  color:#333333;
+}

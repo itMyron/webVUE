@@ -1,0 +1,113 @@
+#section {
+    width: 1200px;
+    margin: 0 auto;
+    header {
+        line-height: 66px;
+        background: #f1f1f1;
+        strong {
+            font-size: 18px;
+            color: #000000;
+            border-bottom: 2px solid #FF5001;
+            padding: 3px;
+        }
+    }
+    #nav-Left {
+        min-height: 588px;
+        display: inline-block;
+        height: 100%;
+        float: left;
+        width: 180px;
+        background: #fff;
+        nav {
+            p {
+                cursor: pointer;
+                height: 40px;
+                line-height: 40px;
+                padding: 20px 0;
+                font-size: 18px;
+                b {
+                    border-left: 5px solid #FFF;
+                    padding: 5px 0;
+                }
+                i {
+                    padding: 5px 20px;
+                }
+            }
+            @mixin navStandard {
+                a {
+                    color: #FF5001;
+                }
+                b {
+                    border-left: 5px solid #FF5001;
+                }
+            }
+            .nav1 {
+                i {
+                    background: url(../../assets/user/nav1.png) no-repeat center;
+                    border-left: 2px solid #fff;
+                }
+            }
+            .nav_1 {
+                @include navStandard;
+                i {
+                    background: url(../../assets/user/nav1-1.png) no-repeat center !important;
+                }
+            }
+            .nav2 {
+                i {
+                    background: url(../../assets/user/nav2.png) no-repeat center;
+                    border-left: 2px solid #fff;
+                }
+            }
+            .nav_2 {
+                @include navStandard;
+                i {
+                    background: url(../../assets/user/nav2-2.png) no-repeat center !important;
+                }
+            }
+            .nav3 {
+                i {
+                    background: url(../../assets/user/nav3.png) no-repeat center;
+                    border-left: 2px solid #fff;
+                }
+            }
+            .nav_3 {
+                @include navStandard;
+                i {
+                    background: url(../../assets/user/nav3-3.png) no-repeat center !important;
+                }
+            }
+            .nav4 {
+                i {
+                    background: url(../../assets/user/nav4.png) no-repeat center;
+                    border-left: 2px solid #fff;
+                }
+            }
+            .nav_4 {
+                @include navStandard;
+                i {
+                    background: url(../../assets/user/nav4-4.png) no-repeat center !important;
+                }
+            }
+            .nav5 {
+                i {
+                    background: url(../../assets/user/nav5.png) no-repeat center;
+                    border-left: 2px solid #fff;
+                }
+            }
+            .nav_5 {
+                @include navStandard;
+                i {
+                    background: url(../../assets/user/nav5-5.png) no-repeat center !important;
+                }
+            }
+        }
+    }
+    #box {
+        background: #fff;
+        min-height: 588px;
+        border-left: 5px solid #F1F1F1;
+        float: left;
+        width: 1015px;
+    }
+}

@@ -1,0 +1,84 @@
+#section{
+    width: 1200px;
+    margin: 0 auto ;
+    .nav{
+        a{
+           display: inline-block;
+           height: 70px;
+           line-height: 70px;
+           padding:0 20px;
+           b{
+               font-size:18px ;
+               color: #000;
+               border-bottom: 2px solid #F1F1F1;
+           }
+        }
+        a:hover{
+            background: #fff;
+            cursor: pointer;
+            box-shadow: 5px 5px 5px #ccc ;
+            b{
+                border-color: #fff;
+            }
+        }
+        .select{
+            b{
+                border-color:#FF5001 ;
+            }
+        }
+    }
+    .news1{
+        height: 590px;
+        background:#f7f9fa url(../../assets/help/lc.png) no-repeat center;
+        background-size: cover;
+    }
+    .news2{
+        
+        background:#f7f9fa ;
+        font:14px/28px "微软雅黑";
+        padding: 30px;
+        .title{
+            font-size: 16px;
+            color: #000;
+        }
+        .content{
+            font-size: 16px;
+            color: #8C8C8C;
+        }
+    }
+    .news3{
+        background:#f7f9fa ;
+        font:14px/28px "微软雅黑";
+        padding:20px 30px;
+        .list1{
+            font-size: 20px;
+            font-weight: 600;
+            padding: 36px 0;
+            border-bottom: 2px solid #f3f3f3;
+        }
+        .list2{
+            padding-top: 30px;
+            font:18px/36px "微软雅黑";
+            color: #000000;
+        }
+        .list3,{
+            padding-top: 200px;
+            font-size: 18px;
+            color: #000000;
+            font{
+                color: blue;
+                font-weight: 600;
+            }
+        }
+        .list4{
+            padding: 10px 0 80px;
+            font-size: 18px;
+            color: #000000;
+            font{
+                color: blue;
+                font-weight: 600;
+            }
+        }            
+    }
+    
+}

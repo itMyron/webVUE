@@ -1,0 +1,127 @@
+#loginSection {
+    //清除谷歌浏览器账户和密码的黄色背景
+    input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px #f4f5fa inset;
+    }
+    background: #fff;
+    width: 1200px;
+    margin: 0 auto;
+    header {
+        height: 66px;
+        line-height: 66px;
+        background: #f1f1f1;
+        strong {
+            font-size: 18px;
+            color: #000000;
+            border-bottom: 2px solid #FF5001;
+            padding: 3px;
+        }
+    }
+    .news {
+        width: 50%;
+        float: left;
+    }
+    .news1 {
+        height: 433px;
+        background: url(../../../assets/login/login/login2.png) no-repeat 200px center;
+    }
+    .news2 {
+        padding: 50px 0;
+        .list {
+            margin: 20px;
+            margin-left: 50px;
+            background: #f4f5fa;
+            width: 320px;
+            height: 32px;
+            line-height: 32px;
+            input {
+                padding-left: 15px;
+                background: #f4f5fa;
+                border: 0;
+                height: 32px;
+                line-height: 32px;
+                font-size: 14px;
+            }
+        }
+        .list1 {
+            font {
+                padding: 0 20px;
+                border-right: 1px solid #9D9D9D;
+                background: url(../../../assets/login/login/icons.png) no-repeat -630px -41px;
+            }
+        }
+        .list2 {
+            font {
+                padding: 0 20px;
+                border-right: 1px solid #9D9D9D;
+                background: url(../../../assets/login/login/icons.png) no-repeat -730px -41px;
+            }
+        }
+        .list3 {
+            #code {
+                width: 120px;
+            }
+            #getCode {
+                padding: 0;
+                float: right;
+                width: 140px;
+                background: #fff;
+                border: 1px solid #FF5001;
+                color: #FF5001;
+                height: 30px;
+                cursor: pointer;
+            }
+            i {
+                display: block;
+                float: right;
+                height: 32px;
+                padding: 0 5px;
+                background: #fff;
+            }
+        }
+        .list4 {
+            background: #fff;
+            input {
+                float: left;
+                margin: 1px 5px 0 0;
+            }
+            span {
+                display: inline-block;
+                float: left;
+            }
+            a {
+                display: inline-block;
+                float: right;
+                color: blue;
+                cursor: pointer;
+                text-decoration: underline;
+            }
+        }
+        .list5 {
+            background: #fff;
+            height: 15px;
+            line-height: 15px;
+            text-align: center;
+            font-size: 14px;
+            color: red;
+        }
+        .list6 {
+            background: linear-gradient(to left, #ff8f00, #ff5001);
+            text-align: center;
+            color: #fff;
+        }
+        .list6:hover {
+            background: linear-gradient(to left, #ff6f00, #ff3001);
+            cursor: pointer;
+        }
+        .list7 {
+            background: #fff;
+            a {
+                float: right;
+                font-size: 12px;
+                color: #000;
+                cursor: no-drop;
+            }
+        }
+    }
+}

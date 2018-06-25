@@ -1,0 +1,60 @@
+.modelWrap {
+    .wrap {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: #000000;
+        z-index: 11111;
+        opacity: 0.7;
+    }
+    .box {
+        position: absolute;
+        top: 100px;
+        left: 20%;
+        padding: 0 2.5%;
+        width: 60%;
+        border-radius: 5PX;
+        opacity: 1;
+        z-index: 99999;
+        background: #ffffff;
+        margin-bottom: 100px;
+        .modelHeader {
+            text-align: right;
+            padding: 12PX 24PX;
+            border-bottom: 2PX solid #e5e5e5;
+            span {
+                font-size: 20PX;
+                color: #bbb;
+                cursor: pointer;
+            }
+        }
+        .modelBody {
+            padding: 20PX 0;
+            border-bottom: 2PX solid #e5e5e5;
+            h3 {
+                text-align: center;
+                color: #000000;
+                font-size: 32px;
+            }
+            p {
+                font-size: 14px;
+                color: #000333;
+                padding: 8px 0;
+            }
+        }
+        .modelFooter {
+            padding: 15PX 30PX;
+            text-align: right;
+            button {
+                color: #ffffff;
+                background-color: #337ab7;
+                border-color: #2e6da4;
+                padding: 6PX 16PX;
+                border-radius: 5PX;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,167 @@
+#section{
+    width: 1200px;
+    margin: 0 auto;
+    background: #fff;
+    .news1{
+        .nav{
+            height: 70px;
+            line-height: 70px;
+            background: #F1F1F1;
+            p{
+                display: inline-block;
+                height: 90px;
+                line-height: 90px;
+                text-align: center;
+                cursor: pointer;
+                a{
+                    color: #000000;
+                    font-weight: 600;
+                    display: block;
+                    height: 20px;
+                    line-height: 20px;
+                    padding: 6px 70px;
+                }
+                i{
+                    display: block;
+                    margin: 0 auto;
+                    width: 0;
+                    height: 0;
+                    border-left: 10px solid transparent;
+                    border-right: 10px solid transparent;
+                }
+            }
+            .bg{
+                a{
+                    color: #fff;
+                    background: #FF5001;
+                }
+                i{
+                    border-top: 15px solid #FF5001;
+                }
+            }
+        }
+        .photo{
+            width: 100%;
+            height: 226px;
+            background: url(../../assets/loan/photo1.png) no-repeat center;
+            background-size: cover;
+        }
+    }
+    .news2,.news2_2{
+        padding-bottom: 30px;
+        .p1{
+            padding: 30px;
+            margin: 0 auto;
+            text-align: center;
+            font{
+                font-size: 18px;
+                color: #000;
+                border-bottom: 2px solid #FF5001;
+            }
+        }
+        .p2{
+            width: 465px;
+            margin: auto;
+            font-size:16px ;
+            line-height: 30px;
+            strong{
+                font-size: 20px;
+            }
+        }
+    }
+    .news3{
+        background: #f5ffff;
+        padding-bottom: 30px;
+        .p1{
+            padding: 30px;
+            margin: 0 auto;
+            text-align: center;
+            font{
+                font-size: 18px;
+                color: #000;
+                border-bottom: 2px solid #FF5001;
+            }
+        }
+        .p2{
+            text-align: center;
+            span{
+                display: inline-block;
+                padding:100px 120px;
+            }
+            .s1{
+                background: url(../../assets/loan/term1.png) no-repeat center top;
+            }
+            .s2{
+                margin-left: 70px;
+                background: url(../../assets/loan/term2.png) no-repeat center top;
+            }
+        }
+    }
+    .news4,.news4_4{
+        padding-bottom: 30px;
+        .p1{
+            padding: 30px;
+            margin: 0 auto;
+            text-align: center;
+            font{
+                font-size: 18px;
+                color: #000;
+                border-bottom: 2px solid #FF5001;
+            }
+        }
+        .p2{
+            .list{
+                float: left;
+                padding-top: 75px;
+                text-align: center;
+                strong{
+                    display: block;
+                    text-align: center;
+                    font-size: 16px;
+                    padding-bottom: 15px;
+                }
+                font{
+                    display: block;
+                    margin: 0 auto;
+                    font-size: 14px;
+                    width: 130px;
+                }
+            }
+            .list1{
+                
+                background: url(../../assets/loan/list1.png) no-repeat center top;
+            }
+            .list2{
+                background: url(../../assets/loan/list2.png) no-repeat center top;
+            }
+            .list3{
+                background: url(../../assets/loan/list3.png) no-repeat center top;
+                font{
+                    width: 110px;
+                }
+            }
+            .list4{
+                background: url(../../assets/loan/list4.png) no-repeat center top;
+                font{
+                    width: 116px;
+                }
+            }
+            .list5{
+                background: url(../../assets/loan/list5.png) no-repeat center top;
+                font{
+                    width: 110px;
+                }
+            }
+        }
+    }
+    .news4{
+        .list{
+            width: 25%;
+        }
+    }
+    .news4_4{
+        .list{
+            width: 20%;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+//上传文件
+@mixin fileWrap($width:50%, $height:50%) {
+    float: left;
+    width: $width;
+    height: $height;
+    background-size: cover;
+    position: relative;
+}
+
+@mixin file {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100%;
+    height: 100%;
+}
+
+@mixin fileImg {
+    width: 100%;
+    height: 100%;
+}
+
+.photoList1 {
+    @include fileWrap(302px, 180px);
+    margin-left: 10%;
+    background: url(../../../assets/user/baseInfo/idCard1.png) no-repeat center;
+    margin-bottom: 40px;
+}
+.photoList2 {
+    @include fileWrap(302px, 180px);
+    float: right;
+    margin-right: 10%;
+    background: url(../../../assets/user/baseInfo/idCard2.png) no-repeat center;
+    margin-bottom: 40px;
+}
+.photoList3 {
+    @include fileWrap(302px, 180px);
+    margin-left: 10%;
+    background: url(../../../assets/user/baseInfo/jsz.png) no-repeat center;
+}
+.photoList4 {
+    @include fileWrap(302px, 180px);
+    float: right;
+    margin-right: 10%;
+    background: url(../../../assets/user/baseInfo/fcz.png) no-repeat center;
+}
+.photoList .file {
+    @include file;
+}
+.photoList img {
+    @include fileImg;
+}
+.progress {
+    background: #428bca;
+    width: 0px;
+    height: 10px
+}

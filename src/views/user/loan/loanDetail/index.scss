@@ -1,0 +1,91 @@
+.contain {
+    header {
+        padding: 30px 0;
+    }
+    section {
+        width: 600px;
+        margin: 0 auto;
+        p,
+        b,
+        strong,
+        span {
+            color: #000333;
+        }
+        .list {
+            padding: 10px 0;
+        }
+        .list1 {
+            border-bottom: 1px dashed #f0f0f5;
+            span {
+                font-size: 18px;
+            }
+            strong {
+                color: #ff5001;
+                font-size: 22px;
+            }
+            .listTitle {
+                margin-left: 15px;
+            }
+        }
+        .list2 {
+            padding: 5px 0;
+            .row {
+                padding: 5px 0;
+                span {
+                    font-size: 18px;
+                }
+                strong {
+                    font-size: 18px;
+                }
+            }
+            .row2 {
+                color: #686d9b;
+                padding-left: 36px;
+            }
+        }
+        .list3 {
+            .btn {
+                width: 300px;
+                height: 36px;
+                line-height: 36px;
+                background: linear-gradient(to left, #ff8f00, #ff5001);
+                color: #fff;
+                font-size: 14px;
+                text-align: center;
+                margin: 0 auto;
+                border-radius: 2px;
+                cursor: pointer;
+                padding: 0 !important;
+            }
+            .row {
+                p:nth-child(1) {
+                    span {
+                        font-size: 16px;
+                    }
+                }
+                p {
+                    padding: 10px 0;
+                }
+            }
+            .row1 {
+                p:nth-child(2) {
+                    padding-left: 36px !important;
+                }
+                p:nth-child(3) {
+                    padding-left: 36px !important;
+                }
+            }
+            .row2 {
+                .declaration {
+                    color: #ff5001;
+                    font-size: 14px;
+                    text-align: center;
+                    padding-bottom: 20px;
+                }
+            }
+            .row3 {
+                padding-top: 20px;
+            }
+        }
+    }
+}

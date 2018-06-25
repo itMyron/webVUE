@@ -1,0 +1,23 @@
+.news1 {
+    padding-top: 20px;
+    .list {
+        text-align: center;
+        font-size: 18px;
+    }
+    .list3 {
+        padding: 80px;
+        text-align: center;
+        a {
+            padding: 10px 130px;
+            border: 1px solid #FF5001;
+            font-size: 18px;
+            color: #FF5001;
+            border-radius: 5px;
+        }
+        a:hover {
+            border: 1px solid #ff8f00;
+            cursor: pointer;
+            color: #ff8f00;
+        }
+    }
+}

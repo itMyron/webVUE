@@ -1,0 +1,104 @@
+.contain {
+    header {
+        padding: 30px 0;
+    }
+    section {
+        .list {
+            margin: 0 auto;
+            width: 600px;
+            border-bottom: 2px solid #f0f0f5;
+            .row {
+                margin: 0 auto;
+                width: 600px;
+            }
+        }
+        .list1 {
+            .row {
+                padding: 15px 0;
+                span {
+                    display: inline-block;
+                    width: 110px;
+                    font-size: 14px;
+                    color: #000333;
+                }
+                strong {
+                    font-size: 24px;
+                    color: red;
+                }
+            }
+        }
+        .list2 {
+            .row {
+                padding: 15px 0;
+                border-bottom: 2px solid #f0f0f5;
+                span {
+                    display: inline-block;
+                    width: 110px;
+                    font-size: 14px;
+                    color: #000333;
+                }
+                select {
+                    width: 150px;
+                    height: 28px;
+                    border-radius: 2px;
+                }
+                input {
+                    width: 150px;
+                    height: 28px;
+                    border: none ;
+                    border-bottom: 1px solid #ccc ;
+                }
+            }
+        }
+        .list3 {
+            height: 60px;
+            line-height: 60px;
+            p {
+                float: left;
+                text-align: center;
+                height: 60px;
+                input {
+                    float: left;
+                    margin-top: 24px;
+                }
+                span {
+                    float: left;
+                    color: blue;
+                }
+                font {
+                    float: left;
+                    display: inline-block;
+                    color: blue;
+                    font-size: 14px;
+                    width: 206px;
+                    text-decoration: underline;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    cursor: pointer;
+                }
+            }
+            .p1 {
+                font {
+                    width: 80px;
+                }
+            }
+        }
+        .list4 {
+            border: none;
+            padding-top: 50px;
+            text-align: center;
+            input {
+                width: 300px;
+                height: 36px;
+                line-height: 36px;
+                background: linear-gradient(to left, #ff8f00, #ff5001);
+                color: #fff;
+                font-size: 14px;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,43 @@
+    .news3 {
+        padding: 50px 0 100px;
+        .list1 {
+            text-align: center;
+            padding: 50px;
+            span {
+                padding: 12px 0 12px 50px;
+            }
+            .span1 {
+                background: url(../../../assets/login/modifyPassword/stepSucc.png) no-repeat left center;
+            }
+            .span2 {
+                margin: 0 60px;
+                background: url(../../../assets/login/modifyPassword/stepSucc.png) no-repeat left center;
+            }
+            .span3 {
+                background: url(../../../assets/login/modifyPassword/step3.png) no-repeat left center;
+            }
+        }
+        .list2 {
+            width: 246px;
+            margin: 0 auto;
+            padding-left: 80px;
+            background: url(../../../assets/login/modifyPassword/loanSuccess.png) no-repeat left center;
+            p {
+                padding: 10px 0;
+                font-size: 16px;
+            }
+        }
+        .list3 {
+            margin: 100px auto;
+            width: 320px;
+            height: 32px;
+            line-height: 32px;
+            background: linear-gradient(to left, #ff8f00, #ff5001);
+            text-align: center;
+            color: #fff;
+        }
+        .list3:hover {
+            background: linear-gradient(to left, #ff6f00, #ff3001);
+            cursor: pointer;
+        }
+    }

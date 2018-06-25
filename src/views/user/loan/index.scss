@@ -1,0 +1,46 @@
+#loanSection {
+    padding: 0 40px;
+    .news {
+        float: left;
+        width: 25%;
+        padding: 120px 10% 100px 15%;
+        .list1 {
+            padding: 20px 0;
+            strong {
+                font-size: 18px;
+            }
+        }
+        .list2 {
+            font: 14px/24px "微软雅黑";
+            height: 72px;
+        }
+        .list3 {
+            padding: 50px 0;
+            text-align: center;
+            a {
+                padding: 10px 34px;
+                border-radius: 20px;
+            }
+        }
+    }
+    .news1 {
+        background: url(../../../assets/user/loan/liushui.png) no-repeat left center;
+        .list3 {
+            a {
+                background: #edfcff;
+                color: #2e51c0;
+                cursor: pointer;
+            }
+        }
+    }
+    .news2 {
+        background: url(../../../assets/user/loan/gongying.png) no-repeat left center;
+        .list3 {
+            a {
+                background: #fff8ea;
+                color: #FF5001;
+                cursor: pointer;
+            }
+        }
+    }
+}

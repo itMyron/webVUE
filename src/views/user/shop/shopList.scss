@@ -1,0 +1,46 @@
+.news2 {
+    div {
+        display: inline-block;
+        margin: 0;
+        width: 24%;
+        .list {
+            text-align: center;
+        }
+        .list2 {
+            padding: 20px 0;
+            font-size: 18px;
+        }
+        .list3 a {
+            display: inline-block;
+            width:110px;
+            border-radius: 5px;
+            padding: 5px 0px;
+            font-size: 14px;
+            color: #fff;
+            background: #6fefae;
+        }
+    }
+    .shopList1 {
+        cursor: pointer;
+    }
+    .shopList0 {
+        //cursor: not-allowed;
+        cursor: pointer;
+    }
+    .add {
+        padding: 80px;
+        text-align: center;
+        a {
+            padding: 10px 130px;
+            border: 1px solid #FF5001;
+            font-size: 18px;
+            color: #FF5001;
+            border-radius: 5px;
+        }
+        a:hover {
+            border: 1px solid #ff8f00;
+            cursor: pointer;
+            color: #ff8f00;
+        }
+    }
+}

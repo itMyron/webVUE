@@ -1,0 +1,84 @@
+.headerWrap {
+    .headerTop {
+        background: #f1f1f1;
+        height: 40px;
+        p {
+            width: 1200px;
+            margin: 0 auto;
+            height: 40px;
+            line-height: 40px;
+            .list1 {
+                color: rgb(255, 80, 1);
+                cursor: pointer;
+                float: left;
+                display: block;
+                //cursor: no-drop;
+            }
+            .list2,
+            .list3,
+            .list4,
+            .list5 {
+                float: right;
+            }
+            .list2 {
+                padding: 0 15px;
+                color: #000333;
+                font-size: 14px;
+                font-weight: 600;
+                cursor: pointer;
+            }
+            .list3 {
+                padding: 0 0 0 15px;
+                color: #8C8C8C;
+                b {
+                    padding: 0 15px 0 0;
+                    color: #000;
+                    font-weight: 600;
+                    text-decoration: underline;
+                }
+            }
+            .list4 {
+                padding: 0 15px;
+                color: #FF5001;
+                cursor: pointer;
+            }
+            .list5 {
+                
+                color: #FF5001;
+            }
+        }
+    } //headerTop
+    .headerBottom {
+        background: #fff;
+        height: 90px;
+        .nav {
+            height: 90px;
+            line-height: 90px;
+            width: 1200px;
+            margin: 0 auto;
+            background: url(../../assets/logo.png) left center no-repeat;
+            li {
+                a {
+                    height: 60px;
+                    color: #000;
+                    font-size: 18px;
+                    margin-left: 30px;
+                    float: right;
+                    font-weight: 600;
+                    padding-bottom: 5px;
+                    border-bottom: 2px solid #fff;
+                }
+                a:hover {
+                    color: red;
+                    border-bottom: 2px solid red;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .select{
+        color: red;
+        border-bottom: 2px solid red;
+        cursor: pointer;
+    }
+}

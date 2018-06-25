@@ -1,0 +1,220 @@
+#indexSection{
+    background: #f1f1f1;
+    .news1{
+        background: #fff9f8;
+        .banner{
+            position: relative;
+            height: 300px;
+            background: url(../assets/index/banner.png) no-repeat center;
+            background-size: cover;
+              
+            a{
+                color: #fff;
+                background: #FF5001;
+                padding:5px 20px;
+                position: absolute;
+                left: 50%;
+                margin-left: -30%;
+                bottom: 30px;
+                cursor: pointer;
+            }  
+        }
+        .flow{
+            width: 1200px;
+            margin: 0 auto;
+            .list{
+                padding-left: 60px;
+                width: calc(25% - 60px);
+                float: left;
+                .p1{
+                    padding: 20px 0 10px;
+                    font-size: 16px;
+                    color: #000000;
+                }
+                .p2{
+                   font-size: 14px;
+                   color: #8C8C8C; 
+                   padding-bottom: 20px;
+                }
+            }
+            .list1{
+                background: url(../assets/index/icon1.png) no-repeat left center;
+            }
+            .list2{
+                background: url(../assets/index/icon2.png) no-repeat left center;
+            }
+            .list3{
+                background: url(../assets/index/icon3.png) no-repeat left center;
+            }
+            .list4{
+                background: url(../assets/index/icon4.png) no-repeat left center;
+            }
+        }
+    }
+    .news2{
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 20px;
+        .list{
+            width: 285px;
+            margin-right: 20px;
+            background: #fff;
+            float: left;
+            padding: 10px 0;
+            p{
+                text-align: center;
+            }
+            .p1{
+                color: #000000;
+                font-size: 16px;
+                padding: 10px 0 ;
+            }
+            .p2{
+                color: #C5C5C5;
+            }
+            .p4{
+                font-size: 14px;
+                color: #FF5001;
+            }
+        }
+        .list1{
+            .p3{
+                padding:90px 0;
+                background: url(../assets/index/icon5.png) no-repeat center;
+            }
+        }
+        .list2{
+            .p3{
+                padding:90px 0;
+                background: url(../assets/index/icon6.png) no-repeat center;
+            }
+        }
+        .list3{
+            .p3{
+                padding:90px 0;
+                background: url(../assets/index/icon7.png) no-repeat center;
+            }
+        }
+        .list4{
+            .p3{
+                padding:90px 0;
+                background: url(../assets/index/icon8.png) no-repeat center;
+            }
+        }
+    }
+    .news3{
+        width: 1200px;
+        margin: 0 auto;
+        header{
+            height: 60px;
+            line-height: 60px;
+            span{
+                border-left:5px solid #FF5001 ;
+                font-size: 20px;
+                color: #000000;
+                font-weight: 800;
+                padding-left: 15px;
+            }
+        }
+        .list{
+            height: 146px;
+            background: #fff;
+            margin-bottom: 20px;
+            .left{
+                display: block;
+                float: left;
+                width: 260px;
+                height: 146px;
+                background: url(../assets/index/ls.png) no-repeat center;
+                background-size: cover;
+            }
+            .center{
+                width: 740px;
+                margin-left: 50px;
+                float: left;
+                height: 146px;
+                .p1{
+                    height: 48px;
+                    line-height: 48px;
+                    .f1{
+                        font-size: 18px;
+                        color: #000000;
+                    }
+                    .f2{
+                        color: #fff;
+                        font-size: 14px;
+                        background: #FF5001;
+                        padding: 3px 15px;
+                        margin-left: 20px;
+                    }
+                };
+                .p2{
+                    height: 48px;
+                    line-height: 48px;
+                    .f{
+                        display: block;
+                        float: left;
+                        width: 25%;
+                    }
+                    .f1{
+                        width: 25% ;
+                        font-size: 20px;
+                        color: #FF5001;
+                    }
+                    .f2{
+                        color: #000;
+                        font-size: 16px;
+                    }
+                    .f3{
+                        font-size: 18px;
+                        color: #FF5001;
+                    }
+                    .f4{
+                        text-align: center;
+                        color: blue;
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+                .p3{
+                    height: 48px;
+                    line-height: 48px;
+                    .f{
+                        display: block;
+                        float: left;
+                        width: 25%;
+                        color: #C5C5C5;
+                        font-size: 18px;
+                    }
+                     
+                }
+            }
+            .right{
+                display: block;
+                float: right;
+                width: 150px;
+                text-align: center;
+                height: 146px;
+                line-height: 146px;
+                img{
+                    margin-top: 16px;
+                    width: 100px;
+                    height: 100px;
+                    padding: 5px; 
+                    border: 2px solid #FF5001;
+                }
+            }
+        }
+        .list2{
+            .left{
+                background: url(../assets/index/gyl.png) no-repeat center;
+            }
+        }
+        .list3{
+            .left{
+                background: url(../assets/index/sc.png) no-repeat center;
+            }
+        }
+    }
+}
+

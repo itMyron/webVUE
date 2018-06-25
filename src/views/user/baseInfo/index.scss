@@ -1,0 +1,145 @@
+$snowflake: #fd7a4d;
+@mixin standard {
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #e9eff1;
+    border-radius: 5px;
+}
+
+#baseInfoSection {
+    input {
+        padding-left: 5px !important;
+    }
+    .right {
+        float: right;
+    }
+    padding:0 40px 80px;
+    .news1 {
+        span {
+            display: block;
+            float: left;
+            width: 100px;
+            height: 60px;
+            line-height: 60px;
+            padding-left: 70px;
+            color: #ff5001;
+            font-size: 18px;
+            background: url(../../../assets/user/baseInfo/b-icon1.png) no-repeat left center;
+        }
+        a {
+            display: block;
+            height: 32px;
+            line-height: 32px;
+            width: 100px;
+            text-align: center;
+            color: #FF5001;
+            border: 1px solid #FF5001;
+            float: right;
+            margin-top: 14px;
+            cursor: pointer;
+        }
+    }
+    .news2 {
+        .list {
+            width: 400px;
+            padding: 10px 0;
+        }
+        font {
+            padding-right: 10px;
+            color: $snowflake;
+        }
+        span {
+            display: inline-block;
+            width: 90px;
+        }
+        input {
+            font-size: 16px;
+            width: 273px;
+            @include standard;
+        }
+        select {
+            margin-left: 5px;
+            font-size: 16px;
+            text-align: center;
+            width: 278px;
+            @include standard;
+        }
+        .list1,
+        .list3,
+        .list4,
+        .list5,
+        .list6,
+        .list8,
+        .list10,
+        .list13,
+        .list15,
+        .list17 {
+            float: left;
+        }
+        .list2,
+        .list7,
+        .list9,
+        .list11,
+        .list14,
+        .list18,
+        .list20 {
+            float: right;
+        }
+        .list12 {
+            float: left;
+            width: 100%;
+        }
+        .list4 {
+            width: 100%;
+            height: 30px;
+            font {
+                float: left;
+            }
+            span {
+                float: left;
+                margin-left: 5px;
+            }
+            .distpicker-address-wrapper /deep/ select {
+                    padding: 0;
+                    display: inline-block;
+                    font-size: 14px;
+                    margin-right: 50px;
+                    width: 148px;
+                    height: 32px;
+                }
+                .distpicker-address-wrapper /deep/ select:nth-child(2) {
+                    //margin: 0 24px ;
+                }
+        }
+        .list5 {
+            width: 100%;
+            #detailAddress {
+                width: 796px;
+                @include standard;
+            }
+        }
+    }
+    .news3 {
+        width: 100%;
+        padding: 30px 0 40px;
+        #submitBaseInfo {
+            width: 100%;
+            text-align: center;
+            a {
+                border: none;
+                display: block;
+                width: 330px;
+                height: 40px;
+                line-height: 40px;
+                color: #fff;
+                text-align: center;
+                background: linear-gradient(to left, #ff8f00, #ff5001);
+                margin: 0 auto;
+            }
+            a:hover {
+                background: linear-gradient(to left, #ff6f00, #ff3001);
+                cursor: pointer;
+            }
+        }
+    }
+}

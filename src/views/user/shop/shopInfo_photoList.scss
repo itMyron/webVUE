@@ -1,0 +1,66 @@
+//上传文件
+@mixin fileWrap($width:50%, $height:50%) {
+    display: inline-block;
+    width: $width;
+    height: $height;
+    background-size: cover;
+    position: relative;
+}
+
+@mixin file {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100%;
+    height: 100%;
+}
+
+@mixin fileImg {
+    width: 100%;
+    height: 100%;
+}
+
+.news3 {
+    text-align: center;
+}
+.list{
+    display: inline-block;
+    .title{
+        color: #000333;
+        padding: 5px 30px;
+    }
+   
+}
+.photoList1 {
+    @include fileWrap(300px, 200px);
+    background: url(../../../assets/user/shop/yyzz.png) no-repeat center;
+    margin: 0 30px;
+    
+}
+
+.photoList2 {
+    @include fileWrap(300px, 200px);
+    background: url(../../../assets/user/shop/fr1.png) no-repeat center;
+    margin: 0 30px;
+}
+
+.photoList3 {
+    @include fileWrap(254px, 152px);
+    background: url(../../../assets/user/shop/fr2.png) no-repeat center;
+}
+
+.photoList .file {
+    @include file;
+}
+
+.photoList img {
+    @include fileImg;
+}
+
+.progress {
+    background: #428bca;
+    width: 0px;
+    height: 10px
+}
